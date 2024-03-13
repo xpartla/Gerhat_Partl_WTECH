@@ -1,0 +1,180 @@
+/* Global styles */
+body {
+    font-family: Roboto, sans-serif ;
+    font-size: 16px;
+}
+
+footer{
+    font-size: 12px;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    z-index: 1000;
+    display: block;
+}
+#myVideo1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.customNavSize {
+    height: 35px;
+}
+#navName {
+    font-family: "Roboto Black", sans-serif ;
+    font-size: 22px;
+    color: white;
+    padding-top: 2vh;
+}
+/* Navbar styles */
+.navbar-brand {
+    font-size: 24px;
+}
+
+/* Form container styles */
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form styles */
+.container {
+    padding: 20px;
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the form container to full height of the viewport */
+}
+
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: midnightblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: deepskyblue;
+}
+
+.btn-secondary {
+    display: block;
+    align-self: center;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 2vh;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: mediumvioletred;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.loginSubText {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.user_card {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+/* Additional CSS for the modified form */
+.user_card_modified {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    padding: 20px; /* Adjusted padding */
+}
+
+.user_card_modified .form-group {
+    margin-top: 8px; /* Adjusted margin */
+    margin-bottom: 8px; /* Adjusted margin */
+}
+
+.user_card_modified label {
+    font-size: 12px; /* Adjusted font size */
+}
+
+.user_card_modified input[type="text"],
+.user_card_modified input[type="email"],
+.user_card_modified input[type="password"] {
+    width: 100%;
+    padding: 8px; /* Adjusted padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px; /* Adjusted font size */
+}
+
+.user_card_modified .btn-primary {
+    padding: 8px 16px; /* Adjusted padding */
+    font-size: 14px; /* Adjusted font size */
+}
+
+.user_card_modified .btn-secondary {
+    padding: 8px 16px; /* Adjusted padding */
+    font-size: 14px; /* Adjusted font size */
+    width: 100%;
+}
+
+.user_card_modified .loginSubText {
+    text-align: center;
+    font-size: 12px; /* Adjusted font size */
+    margin-top: 18px; /* Adjusted margin */
+}
+
+.accountText{
+    font-size: 22px;
+    margin-top: 10px;
+}
