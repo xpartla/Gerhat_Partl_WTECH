@@ -174,3 +174,28 @@ input[type="password"] {
     font-size: 22px;
     margin-top: 10px;
 }
+
+
+.title_text{
+    font-family: "Roboto Thin";
+    font-size: 60px;
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+    font-variant-caps: petite-caps;
+}
+
+.cart_images{
+    min-height: 70px;
+    min-width: 70px;
+}
+
+.cart_text{
+    font-family: "Roboto Thin";
+}
+
+.cart_mainText{
+    color: goldenrod;
+    font-family: "Roboto Black";
+
+}
