@@ -26,11 +26,14 @@ footer{
 #navName {
     font-family: "Roboto Black", sans-serif ;
     font-size: 22px;
-    color: white;
+    color: goldenrod;
     padding-top: 2vh;
 }
 .navbar-brand {
     font-size: 24px;
+}
+.navIconColor{
+    color: #4F535C;
 }
 
 .centered-form {
@@ -78,13 +81,13 @@ input[type="password"] {
     border: none;
     border-radius: 5px;
     font-size: 20px;
-    background-color: midnightblue;
-    color: white;
+    background-color: #D8F665;
+    color: dimgrey;
     cursor: pointer;
 }
 
 .btn-primary:hover {
-    background-color: deepskyblue;
+    background-color: #b8db34;
 }
 
 .btn-secondary {
@@ -96,14 +99,14 @@ input[type="password"] {
     border: none;
     border-radius: 5px;
     font-size: 20px;
-    background-color: darkgoldenrod;
+    background-color: #F35E35;
     color: white;
     cursor: pointer;
 }
 
 .btn-secondary:hover {
-    background-color: gold;
-    color: grey;
+    background-color: #F68465;
+    color: black;
 }
 
 .loginSubText {
@@ -112,7 +115,7 @@ input[type="password"] {
     margin-top: 20px;
 }
 .user_card {
-    background: lightblue;
+    background: #f6cc65;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -123,7 +126,7 @@ input[type="password"] {
 }
 
 .user_card_modified {
-    background: lightblue;
+    background: #f6cc65;
     display: flex;
     justify-content: center;
     flex-direction: column;
