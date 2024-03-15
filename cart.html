@@ -53,7 +53,7 @@
                 </div>
                 <div class="row pt-3 bg-body-tertiary rounded-5 m-3">
                     <div class="col-lg-2 col-md-4 col-sm-4">
-                        <img class="img-fluid cart_images rounded-4" src="src/boots.jpg" alt="boots">
+                        <img class="mb-3 img-fluid cart_images rounded-4" src="src/boots.jpg" alt="boots">
                     </div>
                     <div class="col cart_text">
                         <p class="cart_mainText">Značkové čižmy</p>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="row pt-3 bg-body-tertiary rounded-5 m-3">
                     <div class="col-lg-2 col-md-4 col-sm-4">
-                        <img class="img-fluid cart_images rounded-4" src="src/sweatpants.jpg" alt="sweatpants">
+                        <img class=" mb-3 img-fluid cart_images rounded-4" src="src/sweatpants.jpg" alt="sweatpants">
                     </div>
                     <div class="col cart_text">
                         <p class="cart_mainText">Športové tepláky</p>
@@ -81,7 +81,7 @@
                 </div>
                 <div class="row pt-3 bg-body-tertiary rounded-5 m-3">
                     <div class="col-lg-2 col-md-4 col-sm-4">
-                        <img class="img-fluid cart_images rounded-4" src="src/shirt.jpg" alt="button up shirt">
+                        <img class=" mb-3 img-fluid cart_images rounded-4" src="src/shirt.jpg" alt="button up shirt">
                     </div>
                     <div class="col cart_text">
                         <p class="cart_mainText">Formálna Košela</p>
@@ -96,16 +96,19 @@
             </div>
             <div class="col-4 bg-body-tertiary rounded-5">
                 <div class="row">
-                    <div class="col ps-5 pt-5">
+                    <div class="col ps-lg-5 pt-5">
                         <i class="fa-solid fa-cube" style="font-size: 34px;"></i>
-                        <p class="d-inline ps-4" style="font-size: large">Spôsob doručenia</p>
+                        <p class="d-inline ps-lg-4" style="font-size: 26px">Spôsob doručenia</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col ps-5 pt-3">
+                    <div class="col-12 ps-3 pe-3 pt-3">
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Spôsob doručenia
+                            <button class="btn btn-secondary dropdown-toggle w-100 d-none d-sm-block" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Doručenie
+                            </button>
+                            <button class="btn btn-secondary dropdown-toggle w-100 d-block d-sm-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-truck"></i>
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Doručenie 1</a></li>
@@ -114,11 +117,82 @@
                             </ul>
                         </div>
                     </div>
-
+                </div>
+                <div class="row pt-3">
+                    <h2 class="cart_text">Adresa Doručenia:</h2>
+                </div>
+                <div class="row">
+                    <p class="cart_text">
+                        Bratislava Cubicon Packeta 420/69
+                    </p>
+                </div>
+                <div class="row pt-3">
+                    <div class="col">
+                        <h4 class="cart_secondaryText">Celková cena:</h4>
+                    </div>
+                    <div class="col text-lg-end">
+                        <h4 style="color: darkgray">260.99€</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4 class="cart_secondaryText">Zľava:</h4>
+                    </div>
+                    <div class="col text-lg-end">
+                        <h4 style="color: darkgray">60.99€</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4 class="cart_secondaryText">Doručenie:</h4>
+                    </div>
+                    <div class="col text-lg-end">
+                        <h4 style="color: darkgray">4.00€</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4 class="cart_mainText">Spolu:</h4>
+                    </div>
+                    <div class="col text-lg-end">
+                        <h4 style="color: darkgray">204.00€</h4>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col">
+                        <button type="button" class="btn btn-lg w-100 btn-outline-dark">Prejst k pokladni</button>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
+    <footer class="text-center text-sm-center text-white position-sticky" style="background-color: lightgrey">
+        <div class="container pb-2">
+            <div class="col">
+                <button class="btn btn-link text-white d-block d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent" aria-expanded="false" aria-controls="collapseContent">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse d-sm-block" id="collapseContent">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <a href="#" class="text-white">Link 4</a>
+                        </div>
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <a href="#" class="text-white">Link 4</a>
+                        </div>
+                        <div class="col-lg-4 col-md-8 mb-8 mb-md-0">
+                            <a class="text-white" href="#">© 2024 Copyright: Style Harbor</a>
+                        </div>
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <a href="#" class="text-white">Link 4</a>
+                        </div>
+                        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                            <a href="#" class="text-white">Link 1</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -96,14 +96,14 @@ input[type="password"] {
     border: none;
     border-radius: 5px;
     font-size: 20px;
-    background-color: mediumvioletred;
+    background-color: darkgoldenrod;
     color: white;
     cursor: pointer;
 }
 
 .btn-secondary:hover {
-    background-color: palevioletred;
-    color: white;
+    background-color: gold;
+    color: grey;
 }
 
 .loginSubText {
@@ -199,3 +199,8 @@ input[type="password"] {
     font-family: "Roboto Black";
 
 }
+.cart_secondaryText{
+    color: #4F535C;
+    font-family: "Roboto Black";
+}
+
