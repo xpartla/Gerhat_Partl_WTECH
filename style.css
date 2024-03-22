@@ -90,6 +90,16 @@ input[type="password"] {
     background-color: #b8db34;
 }
 
+#rm_btn.btn-primary {
+    background-color: red;
+    color: white;
+}
+
+#rm_btn.btn-primary:hover {
+    background-color: orangered;
+    color: darkgrey;
+}
+
 .btn-secondary {
     display: block;
     align-self: center;
@@ -296,4 +306,17 @@ body.index-body {
         flex: 0 0 calc(33.333% - 20px);
         max-width: calc(33.333% - 20px);
     }
+}
+
+.about_text{
+    color: #4F535C;
+    font-family: "Roboto Thin";
+}
+
+#rm_prod.user_card_modified {
+    background: indianred; /* Replace with your desired color */
+}
+
+#add_prod.user_card_modified {
+    background: darkseagreen; /* Replace with your desired color */
 }
